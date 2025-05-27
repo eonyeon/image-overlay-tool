@@ -30,3 +30,7 @@ codegen-units = 1
 lto = true
 opt-level = "s"
 strip = true
+
+# Windows 빌드 최적화
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
