@@ -1,0 +1,69 @@
+# Rust build artifacts
+src-tauri/target/
+*.rmeta
+*.rlib
+*.d
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build output
+dist/
+build/
+
+# Windows cross-compilation cache (불필요한 큰 파일들)
+.xwin-cache/
+.xwin/
+
+# Tauri build cache
+src-tauri/.cargo/
+src-tauri/WixTools/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*backup*
+*.bak
+
+# Windows specific
+*.exe
+*.dll
+*.pdb
+
+# macOS specific
+*.dmg
+
+# MSI files (build outputs)
+*.msi
+
+# Temporary files
+tmp/
+temp/
+*.tmp
